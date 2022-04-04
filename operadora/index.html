@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/stilo.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<meta charset="utf-8"/>
+
+<title>Aplicação/teste</title>
+
+</head>
+
+<body>
+ 
+ 
+	<div id="page">
+
+		<div id="l1"><h4 id="title">VxTel</h4>	
+		<form >
+			<p id="label">Origem</p>
+			<input id="origem" class="form-control form-control-lg" type="text"   aria-label=".form-control-lg example">
+			<p id="label">Destino</p>
+			<input id="destino" class="form-control form-control-lg" type="text"   aria-label=".form-control-lg example">
+			<p id="label">Tempo (minutos)</p>
+			<input id="tempo" class="form-control form-control-lg" type="text"   aria-label=".form-control-lg example">
+			<button onclick="PegaValores()" type="button" class="btn btn-primary">Calcular</button>
+
+		</form>
+		
+		</div>
+		
+
+		<div id="l2">
+
+			<img src="img/image.png">
+
+		</div>
+
+
+
+	</div>
+
+
+
+
+
+
+ 
+	<div id="resultado">
+
+		<div id="l3"><h5 id="title2">Valores para cada plano</h5>	
+		<form id="form" >
+			<p id="label">Sem Plano</p>
+			<input id="pl0" class="form-control form-control-lg" type="text"   aria-label=".form-control-lg example">
+			<p id="label">FaleMais 30</p>
+			<input id="pl1" class="form-control form-control-lg" type="text"   aria-label=".form-control-lg example">
+			<p id="label">FaleMais 60</p>
+			<input id="pl2" class="form-control form-control-lg" type="text"   aria-label=".form-control-lg example">
+			
+			<p id="label">FaleMais 120</p>
+			<input id="pl3" class="form-control form-control-lg" type="text"   aria-label=".form-control-lg example">
+ 		</form>
+		
+		</div>
+		
+		
+	 
+
+
+	</div>
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
